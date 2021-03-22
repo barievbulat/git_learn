@@ -16,3 +16,5 @@ git remote add origin https://github.com/barievbulat/git_learn.git
 git branch -M main
 
 git push -u origin main
+
+git clone https://github.com/barievbulat/git_learn.git shared_project
