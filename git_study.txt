@@ -1,20 +1,24 @@
-git init
+cd git_learn
+
+git init //инициализация проекта
 
 git config --local user.name="barievbulat"
 git config --local user.email=@barievbulat@gmail.com"
 
-git status
+git status //статус проекта
 
-git add -A
+git add -A //добавление файлов в проект для отслеживания
 
-git commit -a -m"comment"
+git commit -a -m"comment" //зафиксировать состояние проекта
 
-git log
+git log //просмотр всех точек проекта
 
-git remote add origin https://github.com/barievbulat/git_learn.git
+git remote add origin https://github.com/barievbulat/git_learn.git //ассоциировать с репозиторием в github.com
 
-git branch -M main
+git branch -M main 
 
-git push -u origin main
+git push -u origin main //залить в ветку main
 
-git clone https://github.com/barievbulat/git_learn.git shared_project
+git clone https://github.com/barievbulat/git_learn.git shared_project //клонировать проект для совместной работы
+
+git pull //всегда перед просмотром/редактированием чьих-либо изменений!!!!!!!!!
