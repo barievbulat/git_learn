@@ -1,0 +1,8 @@
+git init
+
+git config --local user.name="barievbulat"
+git config --local user.email=@barievbulat@gmail.com"
+
+git status
+
+git add -A
